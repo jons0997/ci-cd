@@ -2,3 +2,8 @@ language: node_js
 
 install: skip
 script: skip
+
+Deploy: 
+- provider: asure_web_apps
+  verbose: true
+  skip_cleanup: true
